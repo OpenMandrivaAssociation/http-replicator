@@ -10,6 +10,7 @@ Source1:	%{name}.init.bz2
 Group:		System/Servers
 License:	GPL
 Summary:	General purpose caching proxy server
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 Buildarch:	noarch
 Requires(pre):	rpm-helper
 
