@@ -64,3 +64,41 @@ rm -Rf %{buildroot}
 %dir %attr(755,%{name},adm) %{_var}/cache/%{name}
 %doc README
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0-7mdv2011.0
++ Revision: 619488
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 3.0-6mdv2010.0
++ Revision: 429478
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 3.0-5mdv2009.0
++ Revision: 247062
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 3.0-3mdv2008.1
++ Revision: 140755
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import http-replicator
+
+
+* Wed Sep 06 2006 Buchan Milne <bgmilne@mandriva.org> 3.0-3mdv2007.0
+- Rebuild
+
+* Thu Oct 13 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 3.0-2mdk
+- Remove unused file /etc/http-replicator
+- cron and init.d files must not be marked as config(noreplace)
+
+* Mon Apr 25 2005 Buchan Milne <bgmilne@linux-mandrake.com> 3.0-1mdk
+- New release 3.0
+- mkrel
+- s/akel/iva L/
+
+* Tue Aug 03 2004 Buchan Milne <bgmilne@linux-mandrake.com> 2.1-0.rc1.1mdk
+- First Mandrake package
