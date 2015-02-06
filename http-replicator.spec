@@ -1,5 +1,5 @@
 %define version 3.0
-%define release  %mkrel 7
+%define release  8
 
 Name:		http-replicator
 Version:	%version
