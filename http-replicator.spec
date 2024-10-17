@@ -4,7 +4,7 @@
 Name:		http-replicator
 Version:	%version
 Release:	%release
-URL:		http://gertjan.freezope.org/replicator/
+URL:		https://gertjan.freezope.org/replicator/
 Source:		http://gertjan.freezope.org/replicator/%{name}_%{version}.tar.bz2
 Source1:	%{name}.init.bz2
 Group:		System/Servers
